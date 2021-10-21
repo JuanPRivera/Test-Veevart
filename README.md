@@ -1,6 +1,6 @@
 # HOW TO RUN THE CODE
 
-## Requirements:
+### Requirements:
 
 #### - Node.js
 If don't have Node.js, you can download it through this link.
