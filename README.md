@@ -1,11 +1,11 @@
-# HOW TO RUN THE FILES
+# HOW TO RUN THE CODE
 
-#### Requirements:
+## Requirements:
 
-##### - Node.js
-###### If don't have Node.js, you can download it through this link.
-###### https://nodejs.org/es/
-###### You can download the LTS version or the latest.
+#### - Node.js
+If don't have Node.js, you can download it through this link.
+https://nodejs.org/es/
+You can download the LTS version or the latest.
 
 ### Test 7 - JS files
 First, open the folder "Test-7" with your editor or in console.
@@ -18,7 +18,7 @@ First, open the folder "Apex" that is inside "Test-7".
 Open the files in a new playground in salesforce and saving the classes.
 Then, open an execute anonymous window or 'CTRL + E' and run the game
 with the command "Main.main(numPlayers, width, height)" in the terminal.
-###### Information:
+#### Information:
 - numPlayers: Numbers of players in the game (integer. Maximum 4).
 - Width: Numbers of columns of the board (integer. Minimun 5).
 - Height: Numbers of files of the board (integer. Minimum 5).
