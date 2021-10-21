@@ -59,7 +59,7 @@ do{
 
 if (finishPlayers.length > 1) {
     console.log('PODIUM: ');
-    console.log(`Winner: ${finishPlayers[0]}`);
+    console.log(`Winner: Player ${finishPlayers[0]}`);
     for(let i = 1; i < finishPlayers.length; i++){
         console.log(`Position ${i + 1}: Player ${finishPlayers[i]}`);
     }

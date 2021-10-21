@@ -81,7 +81,7 @@ do{
             console.log(`Player ${i} it's your turn`);
             const dice = Math.floor(Math.random() * 6) + 1;
             console.log(`Dice roll ${dice}`);
-            if((current[i - 1] + dice) > 25){
+            if((current[i - 1] + dice) > gameSize){
                 console.log(`Player ${i} exceeds position 25`);
                 console.log(`Player ${i} stays in position ${current[i - 1]}`);
             }else{ 
@@ -97,7 +97,7 @@ do{
                 console.log(`Player ${i} climbs the ladder to position ${current[i - 1]}`);
             }
 
-            if(current[i - 1] === 25){
+            if(current[i - 1] === gameSize){
                 finishPlayers.push(i);
                 console.log(`Player ${i} has finish the game`);
             }
@@ -112,5 +112,13 @@ do{
     console.log(finishPlayers.length, '\n'); */
 
 }while(finishPlayers.length !== players)
+
+if (finishPlayers.length > 1) {
+    console.log('PODIUM: ');
+    console.log(`Winner: Player ${finishPlayers[0]}`);
+    for(let i = 1; i < finishPlayers.length; i++){
+        console.log(`Position ${i + 1}: Player ${finishPlayers[i]}`);
+    }
+}
 
 console.log('End of the game');
