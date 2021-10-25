@@ -1,0 +1,32 @@
+{
+  "name": "juanrivera-test-veevart",
+  "version": "1.0.0",
+  "description": "If don't have Node.js, you can download it through this link.\r https://nodejs.org/es/\r You can download the LTS version or the latest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json",
+    "start:test7": "npm run start:test7-0 & npm run start:test7-1 & npm run start:test7-2",
+    "start:test7-0": "node src/Test7/game.js",
+    "start:test7-1": "node src/Test7/gamePlayers.js",
+    "start:test7-2": "node src/Test7/customGame.js",
+    "start:test9": "npm run start:test9-0 & npm run start:test9-1",
+    "start:test9-0": "node src/Test9/lift.js",
+    "start:test9-1": "node src/Test9/lift2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanPRivera/Test-Veevart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanPRivera/Test-Veevart/issues"
+  },
+  "homepage": "https://github.com/JuanPRivera/Test-Veevart#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.7",
+    "prompt-sync": "^4.2.0"
+  }
+}

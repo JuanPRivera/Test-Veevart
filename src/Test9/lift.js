@@ -1,13 +1,13 @@
-var arrFloors = [22, 12, 20, 25]; //The array that contains the floors needed for the first parameter. The keys.
+var arrFloors = []; //The array that contains the floors needed for the first parameter. The keys.
 var floorsQuan = 4; //Number that indicates how many floors I want to push in the first array (arrFloors).
 var init = 15; //Floor where the lift starts.
-var inpFloors = [2, 3, 5, 29]; //The array that contains the floors needed for the third parameter. The key values.
+var inpFloors = []; //The array that contains the floors needed for the third parameter. The key values.
 
 //For to push a random integer into floors, the first parameter needed.
 //If you want to push more floors, change the floorsQuan's argument
 
 
-/* for(let i = 0; i < floorsQuan; i++){
+for(let i = 0; i < floorsQuan; i++){
     let randomFloor; //Variable to save the random number for a floor.
     let randomInput; //Variable to save the random number for an input.
     //Do while for no repeating floor
@@ -20,7 +20,7 @@ var inpFloors = [2, 3, 5, 29]; //The array that contains the floors needed for t
         randomInput = Math.floor(Math.random() * 29) + 1; //Generate random integer between 1 and 29.
     }while(arrFloors.includes(randomInput) || inpFloors.includes(randomInput) || randomInput === init)
     inpFloors.push(randomInput); //Put the random number into the array for the key values. 
-} */
+}
 
 
 //Show the keys and then their values
